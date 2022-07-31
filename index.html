@@ -6,14 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css -->
-    <!-- <script src="https://kit.fontawesome.com/90a4427ffa.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/90a4427ffa.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
 
     <link rel="stylesheet" href="/style.css">
-    <title>Slider</title>
+    <title>Rotating Navigation</title>
 </head>
 
 <body>
-    <h2>Project</h2>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Amazing Article</h1>
+            <small>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae dolore veritatis, rem
+                    totam illo, quidem mollitia, vitae at excepturi laboriosam tenetur culpa odio explicabo accusantium
+                    voluptatum ratione id? Voluptatibus, debitis possimus amet aperiam quibusdam voluptatem, quo aut
+                    facere sunt iusto quos obcaecati cum alias architecto! Praesentium tempora sequi consectetur
+                    quisquam reprehenderit est dolores ipsum aperiam. Voluptatibus eum quibusdam, eveniet animi
+                    explicabo quasi? Amet laborum fuga quibusdam ipsa, ipsum at ullam reprehenderit pariatur fugiat
+                    ratione modi voluptatum doloribus facilis delectus error eius est enim qui perferendis. Sit esse
+                    culpa, dolorum incidunt necessitatibus id alias, saepe ipsam porro, ratione dolores deleniti?</p>
+            </small>
+
+            <h3>My Cat</h3>
+            <img src="https://images.unsplash.com/photo-1650041753897-090839ccd8ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=856&q=80"
+                alt="my Dog">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dignissimos ratione deserunt delectus.
+                Quod mollitia officia numquam. Illum, magni laborum omnis, aut accusantium, quam voluptates nihil
+                doloremque nobis harum voluptate tenetur architecto perferendis molestiae! Repudiandae id quas voluptas
+                eligendi veniam rerum sunt, molestias vero sequi error explicabo rem. Quibusdam delectus sequi veritatis
+                dignissimos, incidunt deleniti voluptate voluptas alias assumenda dicta fugit tenetur? Ducimus optio
+                unde, quod doloremque excepturi vel tenetur magni totam voluptate fuga ipsa!</p>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-user-alt"></i>About</li>
+            <li><i class="fas fa-envelope"></i>Content</li>
+        </ul>
+    </nav>
+
 
 
     <script src="/script.js"></script>
